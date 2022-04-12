@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "gilroy-medium";
+  font-display: auto;
+  src: url(/wp-content/themes/owdt-theme/inc/assets/fonts/gilroy-medium-webfont.woff2) format("woff2"), url(/wp-content/themes/owdt-theme/inc/assets/fonts/gilroy-medium-webfont.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: gilroy-regular;
+  font-display: auto;
+  src: url(/wp-content/themes/owdt-theme/inc/assets/fonts/gilroy-regular-webfont.woff2) format("woff2"), url(/wp-content/themes/owdt-theme/inc/assets/fonts/gilroy-regular-webfont.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy-light";
+  font-display: auto;
+  src: url("/wp-content/themes/owdt-theme/inc/assets/fonts/gilroy-light-webfont.woff2") format("woff2"), url("/wp-content/themes/owdt-theme/inc/assets/fonts/gilroy-light-webfont.woff") format("woff");
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+.mg-b {
+  margin-bottom: 100px !important;
+}
+
+li {
+  font-family: Gilroy;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+}
+
+p {
+  font-family: Gilroy;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+}
+
+h3.title {
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.wrapper {
+  max-width: 1446px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.container {
+  padding-left: calc((100% - 1496px) / 2) !important;
+  padding-right: calc((100% - 1496px) / 2) !important;
+}
+
+.txt-center {
+  text-align: center !important;
+}
+
+.max-width {
+  width: 1446px;
+  margin: 0 auto;
+}
+
+h4.title {
+  font-size: 22px;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+.nrg {
+  padding: 30px !important;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.col-6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.col-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.header-circle-btn p a {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 27px;
+  background-color: transparent;
+}
+
+.header-circle-btn p a:hover {
+  color: #000;
+  border: 2px solid #000;
+}
+
+a.cta-arrow {
+  display: inline-block;
+  line-height: 32px;
+  padding-left: 45px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #000;
+}
+
+a.cta-arrow::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/arrow-circle.svg");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+a.cta-arrow:hover::before {
+  background-position: right center;
+}
+
+a.cta-arrow.cta-arrow_dark::before {
+  background-position: right center;
+}
+
+a.cta-arrow:first-child {
+  margin-right: 25px;
+}
+
+#second-header {
+  background-image: url(../img/hero-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#second-header .img-heading {
+  background-image: url(../img/nrg-park-logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 220px 0px;
+}
+
+.design-page {
+  padding: 20px;
+}
+
+.design-page .logo {
+  width: 100px;
+}
+
+.wrapper.client {
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  padding: 0 30px;
+}
+
+.cols-6 {
+  width: 50%;
+}
+
+.cols-6 p {
+  text-align: left;
+}
+
+.cols-3 {
+  width: 25%;
+}
+
+.cols-3 h4 {
+  text-align: end;
+  font-family: "gilroy";
+}
+
+.cols-3 ul li {
+  text-align: end;
+}
+
+.wrapper.bg-nrg img {
+  width: 100%;
+  padding: 0 30px;
+}
+
+.cols-12.flex.wrapper {
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  padding: 0 30px;
+}
+
+.cols-12.flex.wrapper .cols-6 {
+  width: 40% !important;
+}
+
+.footer-upper {
+  background-color: #f7f7f7;
+}
+
+.container-fluid .wrapper.grid-12 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+/*# sourceMappingURL=style.css.map */
